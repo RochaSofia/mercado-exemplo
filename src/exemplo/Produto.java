@@ -26,6 +26,7 @@ public class Produto {
 	public String getFabricante() {
 		return fabricante;
 	}
+
 	
 	public String toString() {
 		return "Produto ID: " + getId() + " - Fabricante: " + getFabricante();

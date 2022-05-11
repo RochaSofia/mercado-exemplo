@@ -1,3 +1,4 @@
+import exemplo.Catalogo;
 import exemplo.Lote;
 import exemplo.Produto;
 
@@ -10,5 +11,9 @@ public class Sistema {
 		
 		System.out.println(produto);
 		System.out.println(lote);
+
+		Catalogo catalogo = new Catalogo();
+		catalogo.addProduto(produto);
+
 	}
 }
